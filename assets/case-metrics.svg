@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <rect width="640" height="360" rx="28" fill="#f4f1ec"/>
+  <rect x="40" y="40" width="560" height="280" rx="20" fill="#ffffff"/>
+  <text x="70" y="95" fill="#0c3b58" font-size="22" font-family="Space Grotesk, sans-serif">
+    Model Metrics Snapshot
+  </text>
+  <rect x="70" y="130" width="220" height="16" rx="8" fill="#cde7f5"/>
+  <rect x="70" y="130" width="160" height="16" rx="8" fill="#0c3b58"/>
+  <rect x="70" y="170" width="220" height="16" rx="8" fill="#cde7f5"/>
+  <rect x="70" y="170" width="140" height="16" rx="8" fill="#f3c969"/>
+  <rect x="70" y="210" width="220" height="16" rx="8" fill="#cde7f5"/>
+  <rect x="70" y="210" width="180" height="16" rx="8" fill="#0c3b58"/>
+  <rect x="330" y="130" width="240" height="140" rx="16" fill="#f4f1ec"/>
+  <path d="M350 240l40-40 30 30 60-70 50 60" stroke="#0c3b58" stroke-width="3" fill="none"/>
+  <circle cx="390" cy="200" r="6" fill="#f3c969"/>
+  <circle cx="480" cy="160" r="6" fill="#f3c969"/>
+</svg>
