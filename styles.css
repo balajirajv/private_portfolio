@@ -547,37 +547,80 @@ p {
   gap: 10px;
 }
 
-.timeline {
-  border-left: 1px solid var(--border);
-  padding-left: 22px;
-  display: grid;
-  gap: 22px;
+.exp-section {
+  margin-bottom: 40px;
 }
 
-.timeline-item {
-  position: relative;
-  padding: 20px 24px;
+.exp-section:last-child {
+  margin-bottom: 0;
+}
+
+.exp-header {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.exp-header h3 {
+  margin-bottom: 4px;
+}
+
+.exp-cards {
+  display: grid;
+  gap: 14px;
+}
+
+.exp-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.exp-key-card {
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 1.3;
+  transition: transform 0.2s ease;
+}
+
+.exp-key-card:hover {
+  transform: scale(1.03);
+}
+
+.exp-desc-card {
   background: var(--bg-elevated);
   border-radius: var(--radius);
+  padding: 16px 20px;
   border: 1px solid var(--border);
-  border-left: 3px solid var(--highlight);
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.timeline-marker {
-  position: absolute;
-  left: -32px;
-  top: 24px;
-  width: 14px;
-  height: 14px;
-  border-radius: 3px;
-  background: var(--accent);
-  transform: rotate(45deg);
+.exp-desc-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
 }
 
-.timeline-item ul {
-  margin-top: 12px;
-  padding-left: 20px;
-  color: var(--muted);
+.exp-desc-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .exp-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 .role {
